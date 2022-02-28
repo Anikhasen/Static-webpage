@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: dosis;
+}
+header{
+    background: hsl(218, 36%, 21%);
+    width: 100%;
+    float: left;
+
+}
+header .container {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+.container .logo-area a {
+    float: left;
+    
+    width: 15%;
+}
+.container nav li {
+    display: inline;
+    margin: 10px 50px;
+}
+.container ol li a {
+    color: white;
+    text-decoration: none;
+
+}
+nav {
+    width: 70%;
+    float: left;
+    text-align: center;
+}
+.container .bar-section {
+    width: 15%;
+    overflow: hidden;
+
+}
+.container .bar-section button {
+    font-family: dosis-medium;
+    font-size: 15px;
+    background-color: #00FFF0;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left: 35px;
+}
+.container .bar-section i {
+    color: white;
+    margin-left: 15px;
+    
+}
+#hero {
+    float: left;
+    padding: 200px 40px 30px;
+    width: 100%;
+    background-color: #223049;
+    box-sizing: border-box;
+}
+#hero .container { 
+    width: 60%;
+    margin: auto;
+    
+}
+#hero .container .left-side {
+    color: rgb(250, 245, 245);    
+    width: 60%;
+    float: left;
+}
+#hero .container .left-side h1 {    
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#hero .container .left-side .bt {    
+    margin: 50px 40px 0 0;
+    padding: 15px 20px 15px 20px;
+    width: 200px;
+    background-color: #00FFF0;
+    border-radius: 1em;
+}
+#hero .container .left-side .bt2 {    
+    width: 200px;
+    padding: 15px 20px 15px 20px;
+    background-color: transparent;
+    border-radius: 1em;
+    color: white;
+}
+#hero .container .right-side {
+    width: 40%;
+    float: left;
+}
+#hero .container .right-side img  {    
+    float: right;
+    margin-bottom: -150px;
+}
+#features {                                                                                              
+    width: 100%;
+    float: left;
+}
+#features .container {
+    width: 70%;
+    margin: auto;
+}
+#features .container .write-part h2 {
+    margin: 200px auto 100px;
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+}
+#features .container .write-part img {
+    width: 10%;
+    margin: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+#service {
+    margin-bottom: 100px;
+
+}
+#service .container{
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+}
+.service-details {
+    width: 25%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.service-details h3 {
+    margin: 20px 0;
+}
+#instruction {
+
+}
+#instruction .container {
+    width: 100%;
+    overflow: hidden;
+
+}
+#instruction .container .left-side {
+    width: 45%;
+    float: left;
+}
+#instruction .container .left-side video {
+    width: 100%;
+}
+#instruction .container .right-side {
+    width: 55%;
+    float: left;
+    box-sizing: border-box;
+    background-color: #F5F6FA;
+    padding: 100px 0 100px 80px;
+}
+#instruction .container .right-side b {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+#instruction .container .right-side p {
+    
+}
+#ready-file {
+    margin: 100px 0;
+}
+#ready-file .container {
+    overflow: hidden;
+}
+.container .application-part {
+    width: 45%;
+    float: left;
+    direction: rtl;
+}
+.container .application-part h4 {
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.container .application-part p {
+    margin-bottom: 70px;
+}
+.container .application-part a button{
+    background-color: #00FFF0;
+    padding: 20px;
+    width: 30%;
+    border-radius: 1em;
+}
+.container .application-part a button:hover {
+    cursor: pointer;
+}
+.container .image-part {
+    width: 55%;
+    float: left;
+    overflow: hidden;
+}
+.container .image-part img {
+    margin-left: 80px;
+}
+#benifits {
+    width: 100%;
+    float: left;
+}
+#benifits .container {
+    width: 100%;
+}
+.container .img-part {
+    width: 45%;
+    float: left;
+}
+.container .img-part img {
+    float: right;
+    margin-bottom: 0;
+}
+.container .pop-up-menu-part {
+    width: 55%;
+    float: left;
+}
+.container .pop-up-menu-part .container-part .pop-up-details {
+    width: 60%;
+    background-color: rgb(164, 164, 197);
+    margin: 20px 0 0 100px;
+    border-radius: 5px;
+}
+.container .pop-up-menu-part .container-part .pop-up-details b {
+    padding: 30px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+}
+.container .pop-up-menu-part .container-part .pop-up {
+    background-color: #00FFF0;
+    width: 60%;
+    margin: 20px 0 0 100px;
+    border-radius: 5px;
+}
+.container .pop-up-menu-part .container-part .pop-up img {
+    margin: 20px 27px 0 18px;
+    float: left;
+}
+.container .pop-up-menu-part .container-part .pop-up b {
+    padding: 30px 0 10px 0;
+    display: block;
+    width: 50%;
+}
+.container .pop-up-menu-part .container-part .pop-up p {
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+.container .pop-up-menu-part .container-part .pop-up-details img {
+    margin: 25px 20px 10px 10px;
+    float: left;
+}
+#show-part {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background-color: #F5F6FA;
+    margin-bottom: -31px;
+    padding-top: 100px;
+}
+#show-part .container {
+    width: 100%;
+    overflow: hidden;
+}
+.container .writing-part {
+    width: 45%;
+    float: left;
+    direction: rtl;
+    margin-top: 100px;
+}
+.container .writing-part h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.container .writing-part img {
+    margin-top: 10px ;
+}
+.container .writing-part .android {
+    margin: 30px;
+}
+.container .writing-part .iphone {
+    margin: 20px 41px 20px 31px;
+}
+.container .writing-part p {
+    margin-top: 45px;
+}
+.container .image-part {
+    width: 55%;
+    float: left;
+}
+#show-part .container .image-part img {
+    width: 60%;
+    margin-left: 115px;
+}
+#video-section {
+    width: 100%;
+    background-color:hsl(218, 36%, 21%);
+    float: left;
+}
+#video-section .container {
+    width: 100%;
+    text-align: center;
+}
+#video-section .container img {
+    margin-top: 200px;
+}
+#video-section .container b {
+    color: white;
+    display: block;
+    margin: 40px 0 40px 0;
+}
+#video-section .container .writing-area {
+    margin-bottom: 150px;
+}
+#video-section .container .writing-area p {
+    color: white;
+    margin-bottom: 20px;
+}
+#download-details {
+    width: 100%;
+    float: left;
+}
+#download-details .container {
+    text-align: center;
+    
+}
+#download-details h5 {
+    font-size: 40px;
+    margin: 200px 0 50px 0;
+}
+#download-details b {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 100px;
+}
+#download-details button {
+    width: 15%;
+    padding: 20px;
+    background-color: #00FFF0;
+    border-color: white;
+    border-radius: 1em;
+    margin-bottom: 200px;
+}
+#text-details {
+    width: 100%;
+    background-color: #223049;
+    float: left;
+}
+#text-details .container {
+    text-align: center;
+    margin: 150px 0 150px;
+}
+#text-details .container p {
+    color: #00FFF0;
+    margin-bottom: 10px;
+}
+#store-service {
+    background-color: #F5F6FA;
+    float: left;
+    width: 100%;
+}
+#store-service .container {
+    padding: 100px 0  0;
+}
+#store-service .image-part {
+    width: 50%;
+    float: left;
+}
+#store-service .image-part img {
+    float: right;
+    margin-right: 100px;
+}
+#store-service .container .content-part {
+    width: 50%;
+    float: left;
+}
+#store-service .container .content-part b {
+    font-size: 40px;
+    margin: 135px 0 50px 0;
+    display: block;
+}
+#store-service .container .content-part p {
+    margin: 10px 0;
+}
+#store-service .container .content-part img {
+    margin: 50px 30px 0 0;
+}
+#button-section {
+    width: 100%;
+    float: left;
+    background-color: #F5F6FA;
+}
+#button-section .container {
+    text-align: center;
+}
+#button-section .container button {
+    width: 20%;
+    background-color: #00FFF0;
+    border: none;
+    border-radius: 1em;
+    padding: 20px;
+    margin-bottom: -20px ;
+}
+#site-details {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 150px;
+}
+#site-details .container {
+    width: 70%;
+    margin: auto;
+}
+#site-details .container .site-information {
+    width: 20%;
+    float: left;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+#site-details .container .site-information b {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 20px;
+}
+#site-details .container .site-information a {
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    margin: -6px 0;
+}
+#subscriber-section {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+}
+#subscriber-section .container {
+    
+}
+#subscriber-section  .container b {
+    font-size: 30px;
+    margin: 20px;
+    display: block;
+}
+#subscriber-section  .container p {
+    margin-bottom: 50px;
+}
+#submit-part {
+    width: 100%;
+    float: left;
+    margin-bottom: 100px;
+}
+#submit-part .container {
+    width: 100%;
+    text-align: center;
+}
+#submit-part .container input {
+    width: 35%;
+    background-color: #F5F6FA;
+    padding: 11px;
+    border: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#submit-part .container button {
+    background-color: #00FFF0;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    width: 9%;
+}
+footer {
+    width: 100%;
+    float: left;
+    background-color: #223049;
+}
+footer .container {
+    width: 70%;
+    margin: auto;
+}
+footer .container .left-side {
+    width: 50%;
+    float: left;
+}
+footer .container .left-side h6 {
+    color: #00FFF0;
+    font-size: 20px;
+    padding: 30px 0;
+}
+footer .container .right-side {
+    width: 50%;
+    float: left;
+    padding-left: 94px ;
+    box-sizing: border-box;
+}
+footer .container .right-side img {
+    padding: 30px 0 30px 60px;
+}
